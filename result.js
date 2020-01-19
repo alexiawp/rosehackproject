@@ -9,8 +9,6 @@ function load(){
     console.log(iMoney);
 
 
-    // document.getElementById('budget').innerHTML = eMoney;
-
 }
 
 function updateMoney(isTrue){    
@@ -25,7 +23,7 @@ function updateMoney(isTrue){
        
     }
 
-
+    document.getElementById("moneyBalance").innerText = "$" + iMoney;
     console.log(iMoney);
     console.log(eMoney);
     console.log(iMoney/eMoney);

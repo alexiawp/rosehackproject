@@ -138,31 +138,26 @@ background-color: rgb(57, 197, 207);
 
     text-align: center;
     font-size: 40px;
-    background-color: inherit; /* Green background */
-    border: 1px solid white; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    /*float: left; /* Float the buttons side by side */
+    background-color: inherit; 
+    border: 1px solid white; 
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
   }
   
   .btn-group button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
+    border-right: none; 
   }
   
-  /* Clear floats (clearfix hack) */
   .btn-group:after {
     content: "";
     clear: both;
     display: table;
   }
   
-  /* Add a background color on hover */
   .btn-group button:hover {
     background-color: inherit;
   }
-
-
 
 
 .cols-2{
