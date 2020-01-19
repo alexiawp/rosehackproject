@@ -1,0 +1,16 @@
+html{
+    font-family: 'Lato', sans-serif;
+    color: rgb(57, 197, 207);
+    background-color: rgb(192, 175, 255);
+}
+
+
+.box{
+background-color: rgb(255, 255, 255) ;
+}
+
+.buttonclick{
+    
+    border-radius: 30px;
+
+}
