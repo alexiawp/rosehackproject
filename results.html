@@ -16,13 +16,13 @@
     <div class="beginning"><p>To keep the corgi happy and alive, feed him more money. 
         But if you take away money, you'll starve him to death!</p>
         <p>(⌯˃̶᷄ ﹏ ˂̶᷄⌯)ﾟ</p>
-        
-        <span id="budget">0</span>
 
-        <img id="image" src="fancycorgi.png" alt="" style="display:none;">
+        <img id="image" src="fancycorgi.png" alt="" style="display:none;" class = "center">
+        <img id="image1" src="corgi3.png" alt="" style="display:none;" class = "center">
+        <img id="image2" src="corgi2.png" alt="" style="display:none;" class = "center">
+        <img id="image3" src="corgi.png" alt="" style="display:none;" class = "center">
 
         <div class="r">
-                <!--<div class="resultsForm"> <input class="fieldname" type="number" min = "1" name="name"></div> -->
     
                 <!--<br> -->
                 <!--<div class="resultsForm"><input class="fieldamt" type="number" max = "-1" name="iMoney"></div> -->
@@ -34,10 +34,12 @@
 
                 <div class="cols-2">
                     <div>
-                        <button onclick="feedme()">Feed Me</button>
+                        <div class="resultsForm"> <input id = "update" class="fieldamt" type="number" min = "1" name="name"></div>
+                        <button onclick="updateMoney()">Feed Me</button>
                     </div>
                     <div>
-                        <button>Starve Me</button>
+                        <div class="resultsForm"><input id = "update2" class="fieldamt" type="number" max = "-1" name="iMoney"></div>
+                        <button onclick="updateMoney()">Starve Me</buttonon>
                     </div>
                 </div>
     
