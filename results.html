@@ -16,21 +16,34 @@
     <div class="beginning"><p>To keep the corgi happy and alive, feed him more money. 
         But if you take away money, you'll starve him to death!</p>
         <p>(⌯˃̶᷄ ﹏ ˂̶᷄⌯)ﾟ</p>
+        
+        <span id="budget">0</span>
+
+        <img id="image" src="fancycorgi.png" alt="" style="display:none;">
 
         <div class="r">
-            <form class="inputform" action="results.html">
-                <div class="resultsForm"> <input class="fieldname" type="number" name="name"></div>
+                <!--<div class="resultsForm"> <input class="fieldname" type="number" min = "1" name="name"></div> -->
     
-                <br>
-                <div class="resultsForm"><input class="fieldamt" type="number" name="iMoney"></div>
-                <br>
-                
+                <!--<br> -->
+                <!--<div class="resultsForm"><input class="fieldamt" type="number" max = "-1" name="iMoney"></div> -->
+                <!--<br> -->
+                <!-- <div class="btn-group"> -->
+                    <!-- <button>Feed me</button> -->
+                    <!-- <button>Starve me</button> -->
+                <!-- </div> -->
+
+                <div class="cols-2">
+                    <div>
+                        <button onclick="feedme()">Feed Me</button>
+                    </div>
+                    <div>
+                        <button>Starve Me</button>
+                    </div>
+                </div>
     
                <!-- <button class="submit" type="submit">Submit</button></div> -->
-               <button class="submit" type="submit">Submit</button>
-    
-                <!-- <div class="submit" onclick="submit();">Submit</div> -->
-            </form>
+               <!--<button class="submit" type="submit">Submit</button> -->
+                
         </div>
 
 </body>
