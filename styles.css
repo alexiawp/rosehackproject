@@ -1,15 +1,32 @@
 html{
     font-family: 'Lato', sans-serif;
-    color: rgb(57, 197, 207);
+    color: white;
     background-color: rgb(192, 175, 255);
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Oswald', sans-serif;
+
 
 }
 
 
 .box{
-background-color: rgb(255, 255, 255) ;
+background-color: rgb(57, 197, 207);
+}
+
+.submit
+{
+    font-size: 30px;
+    border-radius: 30px;
+    border-color: white;
+    text-align: center;
+    margin: 50px ;
+    padding: 10px;
+    border: solid;
+}
+
+.form
+{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .buttonclick{
