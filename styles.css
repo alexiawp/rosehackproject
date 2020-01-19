@@ -171,6 +171,7 @@ background-color: rgb(57, 197, 207);
 .cols-2 > div{
     width: 50%;
 }
+<<<<<<< HEAD
 
 .center {
     display: block;
@@ -178,3 +179,5 @@ background-color: rgb(57, 197, 207);
     margin-right: auto;
     width: 50%;
   }
+=======
+>>>>>>> c320d5a2750de4b759496c32826c172268f9ed4c
