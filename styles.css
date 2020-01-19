@@ -110,3 +110,10 @@ background-color: rgb(57, 197, 207);
     border-radius: 30px;
     text-align: center;
 }
+
+.formbody
+{
+    background-color: rgb(198, 182, 250);
+    border-radius: 30px;
+    margin: 50px 200px;
+}
