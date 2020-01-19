@@ -94,6 +94,19 @@ background-color: rgb(57, 197, 207);
 
 .inputform
 {
-    background-color: none;
+    text-align: center;
+    margin: 100px 350px;
+    padding: 30px;
+
+}
+
+.intro
+{
+    background-color: rgb(198, 182, 250);
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    font-size: 30px;
+    border-radius: 30px;
     text-align: center;
 }
