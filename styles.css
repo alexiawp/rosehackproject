@@ -121,3 +121,10 @@ background-color: rgb(57, 197, 207);
     border-radius: 30px;
     text-align: center;
 }
+
+.resultsForm{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
