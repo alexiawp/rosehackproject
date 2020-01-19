@@ -14,16 +14,49 @@ background-color: rgb(57, 197, 207);
 .submit
 {
     font-size: 30px;
-    border-radius: 30px;
-    border-color: white;
+    border-radius: 50px;
+    color: white;
     text-align: center;
     margin: 50px ;
-    padding: 10px;
-    border: solid;
+    padding: 20px;
+    border: solid; 
+    background-color: inherit;
+}
+
+.fieldname
+{
+    text-align: center;
+    width: 300px;
+    background-color: transparent;
+    margin: 5px 10px;
+    height: 30px;
+    border: none;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    font-size: 30px;
+}
+
+.fieldamt
+{
+    text-align: center;
+    width: 100px;
+    background-color: transparent;
+    margin: 5px 10px;
+    height: 30px;
+    border: none;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    font-size: 30px;
+
 }
 
 .form
 {
+    text-align: center;
     font-size: 30px;
     margin: 10px;
     padding: 10px;
@@ -33,4 +66,34 @@ background-color: rgb(57, 197, 207);
     
     border-radius: 30px;
 
+}
+
+.title
+{
+    text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black;
+    text-align: center;
+    font-size: 175px;
+    color: rgb(245, 201, 137);
+}
+
+.start
+{
+    text-align: center;
+    font-size: 50px;
+    border-radius: 100px;
+    text-align: center;
+    margin: 50px ;
+    padding: 10px;
+    border: solid; 
+    background-color: inherit;
+    margin: 30px;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.inputform
+{
+    background-color: none;
+    text-align: center;
 }
