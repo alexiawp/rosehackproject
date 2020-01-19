@@ -95,8 +95,8 @@ background-color: rgb(57, 197, 207);
 .inputform
 {
     text-align: center;
-    margin: 100px 350px;
-    padding: 30px;
+    /* margin: 100px 350px; */
+    /* padding: 30px; */
 
 }
 
@@ -134,3 +134,43 @@ background-color: rgb(57, 197, 207);
     border-radius: 30px;
     margin: 0px 100px;
 }
+<<<<<<< HEAD
+=======
+.cols-2 button {
+
+    text-align: center;
+    font-size: 40px;
+    background-color: inherit; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    /*float: left; /* Float the buttons side by side */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: inherit;
+  }
+
+
+
+
+.cols-2{
+    display: flex;
+}
+.cols-2 > div{
+    width: 50%;
+}
+>>>>>>> 8c16e023c162df7e6e5e1db4d6b2bfa8b5e10836

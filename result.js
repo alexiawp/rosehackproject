@@ -1,7 +1,22 @@
 function load(){
     var url = new URL(window.location);
-    var c = JSON.parse(url.searchParams.get("data"));
-    console.log(c);
+    var eMoney = Number(url.searchParams.get("eMoney"));
+    console.log(eMoney);
 
-    console.log(c.name);
+    if(eMoney < 200){
+        console.log('ajslkfdasldf');
+        document.getElementById('budget').innerHTML = "YOU're BROKE";
+        document.getElementById('image').style.display = 'block';
+    }
+
+    // document.getElementById('budget').innerHTML = eMoney;
+
+}
+
+function feedme(){    
+    console.log('teststsdaf');
+}
+
+function starveme(){ 
+
 }
