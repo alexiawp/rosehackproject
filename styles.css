@@ -3,7 +3,7 @@ html{
     color: white;
     background-color: rgb(192, 175, 255);
 
-
+    text-align: center;
 }
 
 
@@ -111,9 +111,13 @@ background-color: rgb(57, 197, 207);
     text-align: center;
 }
 
-.formbody
+.beginning
 {
     background-color: rgb(198, 182, 250);
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    font-size: 30px;
     border-radius: 30px;
-    margin: 50px 200px;
+    text-align: center;
 }
